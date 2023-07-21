@@ -86,7 +86,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ${renderLicenseSection(data.license)}
-  ${renderLicenseBadge(data.license)}
+  
   
   
   ## Contact
