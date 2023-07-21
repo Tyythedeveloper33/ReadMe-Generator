@@ -34,7 +34,7 @@ function renderLicenseBadge(license) {
     return '';
   }
   return `![License Badge](https://img.shields.io/badge/License-${license}-green)`;
-  RenderTOC(tableOfContentsWLiscense)
+  
 }
 
 // TODO: Create a function that returns the license link
