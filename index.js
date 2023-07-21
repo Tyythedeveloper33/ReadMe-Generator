@@ -47,7 +47,7 @@ inquirer.prompt([
     type: 'list',
     message: 'What type of license do you prefer for your project?',
     name: 'license',
-    choices: ['MIT', 'Apache', 'BSD',"None"]
+    choices: ['MIT', 'Apache', 'BSD','ISC', 'GNU GPLv3', "None"]
     
 },
 ]).then((answers) => {

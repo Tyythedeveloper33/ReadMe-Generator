@@ -1,5 +1,5 @@
 #    
-   ![License Badge](https://img.shields.io/badge/License-MIT-green)
+   ![License Badge](https://img.shields.io/badge/License-GNU GPLv3-green)
   ## Description  
          
    ## Table of Contents
@@ -20,7 +20,7 @@
   
 
   ## License
-  This project is licensed under the MIT license
+  This project is licensed under the GNU GPLv3 license
   
   
   
