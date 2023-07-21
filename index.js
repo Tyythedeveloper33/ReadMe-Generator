@@ -44,7 +44,7 @@ inquirer.prompt([
     name: 'test',
 },
 {
-    type: 'checkbox',
+    type: 'list',
     message: 'What type of license do you prefer for your project?',
     name: 'license',
     choices: ['MIT', 'Apache', 'BSD',"None"]
@@ -59,33 +59,7 @@ inquirer.prompt([
 });
 
 function writeToFile(fileName, data) {
-    /*
-    const template = `# ${data.title}
-    ## Description
-    ${data.description}
-    ## Table of Contents
-    - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Test](#test)
-- [License](#license)
-- [Contact](#contact)
-
-## Installation
-${data.instructions}
-## Usage
-${data.usage}
-## Contributing
-${data.guidelines}
-## Test
-${data.test}
-## License
-This project is licensed under the ${data.license} license.
-
-
-## Contact
-For questions or feedback, please contact ${data.username} at ${data.email}.`;
-*/
+    
   fs.writeFile(fileName, data, (err) => {
     if (err) {
       console.log(err);
