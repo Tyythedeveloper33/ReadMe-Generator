@@ -1,5 +1,5 @@
-#    
-   ![License Badge](https://img.shields.io/badge/License-GNU GPLv3-green)
+# read me   
+   ![License Badge](https://img.shields.io/badge/License-ISC-green)
   ## Description  
          
    ## Table of Contents
@@ -20,9 +20,9 @@
   
 
   ## License
-  This project is licensed under the GNU GPLv3 license
+  This project is licensed under the ISC license
   
   
   
   ## Contact
-  For questions or feedback, please contact  at .
+  For questions or feedback, please contact tyythedeveloper33 at .
