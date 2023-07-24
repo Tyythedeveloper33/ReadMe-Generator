@@ -1,4 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// table of contents for readme with license
+
 var tableOfContentsWLiscense = 
 ` ## Table of Contents
 - [Installation](#installation)
@@ -7,6 +8,7 @@ var tableOfContentsWLiscense =
 - [Test](#test)
 - [License](#license)
 - [Contact](#contact)`
+// table of contents for readme without license
  var tableOfContentsWithoutLiscense = 
 ` ## Table of Contents
 - [Installation](#installation)
@@ -15,9 +17,7 @@ var tableOfContentsWLiscense =
 - [Test](#test)
 - [Contact](#contact)`
 
- 
- //create function for table of contents
- 
+ // function to decide which table of contents to render based on the presence of license
  function RenderTOC(license){
   if(license === 'None') {
     
@@ -28,20 +28,21 @@ var tableOfContentsWLiscense =
   return tableOfContentsWLiscense
  }
 }
-// If there is no license, return an empty string
+
+//function to render the license badge based on the chosen license
 function renderLicenseBadge(license) {
   if(license === 'None') {
+    // if no license is chosen return empty string ''
     return '';
   }
   return `![License Badge](https://img.shields.io/badge/License-${license}-green)`;
   
 }
-//create a link for github username
 
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// function to render the license link based on the license chosen
+
 function renderLicenseLink(license) {
   if(license === 'MIT') {
     return `[MIT License](https://choosealicense.com/licenses/mit/)`;
@@ -60,8 +61,7 @@ function renderLicenseLink(license) {
 }
  
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// function to render the license section based on if license is chosen or not
 function renderLicenseSection(license) {
   console.log("License is: ", license)
 
@@ -74,7 +74,7 @@ function renderLicenseSection(license) {
   This project is licensed under the ${license} license`;
 }
 
-// TODO: Create a function to generate markdown for README
+// TODO: Create a function to generate markdown for README using data provided by prompting the user through inquirer
 function generateMarkdown(data) {
   const tableOfContents = RenderTOC(data.license);
   return `# ${data.title}   
@@ -100,5 +100,5 @@ function generateMarkdown(data) {
   For questions or feedback, please contact ${data.username} at ${data.email}.
 `;
 }
-
+// export the generate markdown function to be used in other files
 module.exports = generateMarkdown;
