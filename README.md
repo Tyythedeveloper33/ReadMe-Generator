@@ -38,8 +38,7 @@ To use the Fast README Generator, follow these simple steps:
 - Once you're ready, submit a pull request
 
   ## Test(visualizer)
-  ![video of test functionality](<iframe src="https://drive.google.com/file/d/1k2_eM3CXECOZh5BhPMbSmacZc2zRtkHQ/preview" width="640" height="480"></iframe>)
-  
+  https://drive.google.com/file/d/1k2_eM3CXECOZh5BhPMbSmacZc2zRtkHQ/view 
 
   ## License
   This project is licensed under the MIT license
