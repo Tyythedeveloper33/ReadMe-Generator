@@ -2,6 +2,18 @@
    ![License Badge](https://img.shields.io/badge/License-MIT-green)
   ## Description  
       The Fast README Generator is a command-line application that allows users to quickly generate well-structured README files for their projects. Creating a README is an essential step in any software development project, as it provides important information about the project's purpose, installation instructions, usage, and more. With this tool, developers can save time and effort in creating READMEs from scratch and focus more on building their projects.
+      - WHEN user is prompted for information about application repository
+      THEN a high-quality, professional README.md is generated with the title of  project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+     
+      -WHEN user enters project title, THEN input is displayed as the title of the README
+    
+     -WHEN user chooses a license for application from a list of options, THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+     
+     - WHEN user enters GitHub username, THEN input is added to the section of the README entitled Questions
+     
+     -WHEN user enters my email address, THEN input is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+
+     -WHEN user clicks on the links in the Table of Contents, THEN user is took to the corresponding section of the README
    ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
